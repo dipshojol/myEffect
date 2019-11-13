@@ -1,4 +1,4 @@
-- Setting up local server: open terminal and run 'npm install' in root directory and in 'view' directory. (it will install all the dependencies)
+- Setting up local server: open terminal and run 'npm install' in root directory and in 'client' directory. (it will install all the dependencies)
 
 - Start backend server: in terminal type "npm start" from root directory
 
