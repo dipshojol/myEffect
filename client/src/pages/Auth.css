@@ -1,0 +1,61 @@
+.outlined-basic {
+    background: #f7f7f7;
+    /* overflow: hidden; */
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.has-error {
+    border: 1px solid #f44336;
+}
+
+.outlined-basic-label.MuiFormLabel-root{
+    line-height: .9;
+}
+fieldset.PrivateNotchedOutline-root-63.MuiOutlinedInput-notchedOutline{
+    border: none;
+}
+label.MuiFormControlLabel-root .checkbox1{
+    margin-left: 20px;
+}
+label.MuiFormControlLabel-root .MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1{
+    color: #858891;
+    font-size: .9em;
+}
+.MuiFormControl-root.MuiTextField-root.MuiFormControl-marginDense{
+    width:100%;
+}
+.sign-up-wrapper .form-actions{
+    margin-top: 10px;
+    color: #858891;
+}
+.form-actions .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+    background: #ffd431;
+    width: 100%;
+}
+.landing-wrapper .sign-up-container .sign-up-wrapper{
+    background: #fff;
+    /* height: 450px; */
+    /* border: 1px solid; */
+    margin: 0px 5px;
+    padding: 20px 40px 0;
+    border-radius: 10px;
+}
+.sign-up-wrapper .form-actions .terms-checkbox{
+    display: grid;
+    grid-template-columns: 30px auto;
+    margin: 15px 0;
+}
+.sign-up-wrapper .form-actions .terms-checkbox .terms2{
+    font-weight: bold;
+    line-height: 23px;
+}
+.sign-up-wrapper .form-actions .terms{
+    display: inline-block;
+    font-size: .8em;
+}
+.sign-up-wrapper .form-actions .MuiFormControlLabel-root{
+    margin-right: 0;
+}

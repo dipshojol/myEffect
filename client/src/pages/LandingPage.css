@@ -1,0 +1,109 @@
+main{
+    min-width: 100vw;
+    zoom: .8;
+}
+
+main .landing-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-image: linear-gradient(#03579b, #2aa6cf);
+    min-height: 130vh;
+}
+main .landing-wrapper h1{
+    color: #83868f;
+    margin: 0 0 5px;
+
+}
+main .landing-wrapper .logo-container{
+    grid-column: span 2;
+    padding: 20px 0;
+}
+main .landing-wrapper .logo-container img{
+    height: 3em;
+}
+main .landing-wrapper .mobile-site{
+    position: relative;
+    width: 100%;
+}
+main .landing-wrapper .mobile-site div{
+    position: relative;
+    display: grid;
+    justify-content: end;
+    overflow: hidden;
+}
+main .landing-wrapper .mobile-site div:nth-child(2){
+    right: 37px;
+    top: -335px;
+}
+main .landing-wrapper .mobile-site div:nth-child(1){
+    right: 155px;
+    top: 40px;
+}
+main .landing-wrapper .mobile-site div img{
+    
+}
+main .landing-wrapper .mobile-site div img:nth-child(2){
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    height: 28em;
+}
+main .landing-wrapper .mobile-site div img:nth-child(1){
+    height: 27em;
+    padding: 10px;
+}
+
+main .landing-wrapper .sign-up-container{
+    width: 100%;
+}
+.main-sign-up-wrapper{
+    display: grid;
+    place-items: center;
+    max-width: 380px;
+    overflow: hidden;
+    grid-row-gap: 10px;
+}
+
+.sign-in-wrapper{
+    width: 365px;
+    height: 69px;
+    border-radius: 10px;
+    background: #fff;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+.app-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-row-gap: 10px; */
+}
+.app-wrapper h3{
+    grid-column: span 2;
+    text-align: center;
+    margin: 5px;
+}
+.login-text{
+    text-decoration: none;
+    color: #02b8f1;
+}
+.app-wrapper img{
+    width: 150px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 620px) {
+    body{
+        /* background: #02b8f1; */
+    }
+    .main-content .landing-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .main-content .landing-wrapper .mobile-site{
+        display: none !important;
+    }
+    main .landing-wrapper .sign-up-container{
+        width: auto;
+    }
+}

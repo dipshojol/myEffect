@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="26px" viewBox="0 0 18 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>mobile-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="onboarding-v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Signup" transform="translate(-1204.000000, -372.000000)">
+            <g id="Group-13" transform="translate(841.000000, 175.000000)">
+                <g id="Group-4" transform="translate(1.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(37.000000, 82.000000)">
+                        <g id="Group-5" transform="translate(16.000000, 0.000000)">
+                            <g id="Group-2" transform="translate(0.000000, 109.000000)">
+                                <g id="mobile-solid" transform="translate(310.000000, 7.000000)">
+                                    <path d="M13.6,0 L2.4,0 C1.075,0 0,1.0078125 0,2.25 L0,21.75 C0,22.9921875 1.075,24 2.4,24 L13.6,24 C14.925,24 16,22.9921875 16,21.75 L16,2.25 C16,1.0078125 14.925,0 13.6,0 Z" id="Shape" stroke="#979797" fill-rule="nonzero"></path>
+                                    <rect id="Rectangle" fill="#979797" x="2" y="2" width="12" height="20" rx="1"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
